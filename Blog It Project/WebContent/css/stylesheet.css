@@ -1,0 +1,95 @@
+#HEADER{
+	background-color:black;
+	height:50px;
+}
+#HEADERTEXT{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	font-family:Verdana;
+	font-size: 20px;
+	margin: 5px;
+	padding: 7px;
+	display:inline-block;
+}
+.HEADERBUTT{	
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	font-family:Verdana;
+	font-size: 20px;
+	margin:5px;
+	padding:7px;
+	display:inline-block;
+	float:right;	
+}
+.HEADERBUTT:hover{
+	color:grey;
+}
+#LOGINBUTTON{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	height:200px;
+	background-color:grey;
+	width:400px;
+	margin: 0 auto;
+	text-align:center;	
+	font-family:Verdana;
+}
+.textlabel{
+	display:inline-block;
+	text-align:center;
+	color:white;
+}
+.textinput{
+	display:inline-block;
+	text-align:center;
+}
+.btn-primary{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	color: black;
+	font-family:Verdana;
+	text-decoration:none;
+	font-size:20px;
+	cursor: pointer;
+	border:none;
+	display:block;
+	margin: 0 auto;
+}
+html, body, #main-container{
+	height:100%;
+}
+#main-container{
+	height:auto;
+	min-height:82%;
+}
+#footer{
+	clear:both;
+}
+.footertabs{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	font-family:Verdana;
+	font-size: 20px;
+	margin:5px;
+	padding:7px;
+	display:inline-block;
+	
+}
+.footertabs:hover{
+	color:grey;
+}
+/* .pop-up{
+	display:none;
+		
+}
+#Dev:hover{
+	display:block;
+} */
+/**{
+	border: 1px solid black;
+}*/

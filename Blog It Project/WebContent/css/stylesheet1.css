@@ -1,0 +1,283 @@
+/**{
+	border: 1px solid yellow;
+}*/
+
+#HEADER{
+	background-color:black;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}	
+#HEADERTEXT{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	font-family:Garamond;
+	font-size: 20px;
+	text-shadow: 1px 1px grey;
+	margin: 5px;
+	padding: 7px;
+	display:inline-block;
+}
+.HEADERBUTT{	
+	background-color:black;
+	color:white;
+	text-shadow: 1px 1px grey;
+	text-decoration:none;
+	font-family:Garamond;
+	font-size: 20px;
+	margin:5px;
+	padding:7px;
+	display:inline-block;
+	float:right;	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.HEADERBUTT:hover{
+	color:grey;
+}
+#LEFTPANEL{
+	background-color:black;
+	color:yellow;
+	width:200px;
+	/*padding:15px;*/
+	margin : 1px;
+	height:600px;
+	display:inline-block;
+	font-size : 20;
+	font-family :Garamond;
+	float:left;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	/*border:solid black;*/
+}
+#Profile_label{
+	height: 50px;
+	color:white;
+	line-height:50px;
+	text-align:center;
+	font-family:Verdana;
+	background-color:#989898;	
+}
+.labelans{
+	background-color:#C8C8C8;
+	color:black;
+	text-align:center;
+	line-height:2em;
+	font-family:Verdana;
+	height:2em;
+}
+.labelques{
+	background-color:#B8B8B8;
+	line-height:2em;
+	font-family:Verdana;
+	color:white;
+	text-align:center;
+	height:2em;
+}
+.Profile_field{
+	background-color:green;
+}
+#NEWPOST{
+	background-color:#c8c8c8;
+	float:left;
+	margin:2px auto;
+	width:744px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#post{
+	margin-left:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	font-family:Verdana;
+	font-size:13px;
+	-webkit-border-radius:5px;
+}
+#postbutton{
+	float:right;
+	margin-right:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-family:Verdana;
+	font-size:14px;
+	cursor:pointer;
+	text-shadow: 1px 1px grey;
+	background-color:black;
+	color:white;
+}
+#LeftC{
+	font-family:Verdana;
+}
+#counter{
+	margin:1px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#main-region{
+	width:743px;
+	height:520px;
+	overflow-y:scroll;
+	background-color:#989898;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#bodyrow{
+	display:inline-block;
+	height: 3em;
+	width:580px;
+	margin:10px;
+	color:black;
+	font-family:Verdana;
+	text-align:center;
+	font-size:14px;
+	background-color:#989898;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#post-box{
+	background-color:black;
+	margin:2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#author-row{
+	display:inline-block;
+	float:right;
+	height:3em;
+	margin:10px;
+	color:white;
+	font-family:Verdana;
+	font-size:14px;
+	text-align:center;
+	background-color:black;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#RIGHTPANEL{
+	background-color:black;
+	width:385px;
+	color:black;
+	margin:1px;
+	/*margin-top : -187px;*/
+	height:600px;
+	display:inline-block;
+	font-size : 20;
+	font-family :Verdana;
+	float:right;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#container{
+	padding:5px;
+}
+#friend_label{
+	height:50px;
+	text-align:center;
+	color:white;
+	margin:1px;
+	padding:5px;
+	line-height:50px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#989898;
+}
+#friend_body{
+	height:1em;
+	padding:3px;
+	text-align:center;
+	display:block;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:1px;
+	color:white;
+	background-color:#b8b8b8;
+}
+#friend_list_box{
+	height:100px;
+	width:375px;
+	overflow-y:scroll;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#suggest_label{
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#989898;
+}
+#suggest_body{
+	background-color:#b8b8b8;
+	margin:2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}	
+/*WHY IS SGGEST_FRIEND NEEDED, I AHVE NO IDEA, BUT WITHOUT IT, CODE GOES HAYWIRE*/
+#suggest_friend{
+	height:150px;
+	width:385px;
+	background-color:yellow;
+}
+#suggest_friend_name{
+	display:inline-block;
+	height: 1.5em;
+	margin:10px;
+	color:black;
+	font-family:Verdana;
+	text-align:center;
+	font-size:14px;
+	background-color:#c8c8c8;
+	padding:1px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#addbutton{
+	display:inline-block;
+	float:right;
+	height:1em;
+	padding:2px;
+	margin:10px;
+	color:black;
+	font-family:Verdana;
+	font-size:14px;
+	text-align:center;
+	background-color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#suggestion_list{
+	height:200px;
+	overflow-y:scroll;
+}
+#chat_label{
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	width:385px;
+	background-color:lightblue;
+}
+#chat-body{
+	height:150px;
+	width:385px;
+	background-color:yellow;
+}
